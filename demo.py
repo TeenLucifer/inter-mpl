@@ -1,14 +1,8 @@
-import matplotlib.pyplot as plt
 import numpy as np
 from inter_mpl import InterMpl
 
-# 设置中文字体显示（如果需要在图中显示中文）
-plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
-plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
-
-# 生成数据
-x = np.linspace(0, 10, 100)  # 从0到10生成100个等间距的点
-y1 = np.sin(x)  # 计算每个x点的正弦值
+x = np.linspace(0, 10, 100)
+y1 = np.sin(x)
 y2 = np.cos(x)
 y3 = np.tan(x)
 
